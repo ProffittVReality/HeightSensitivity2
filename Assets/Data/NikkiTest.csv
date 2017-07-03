@@ -1,0 +1,8 @@
+Time,RAName,Participant#,Experiment#,Age,Height,Weight,Gender,Heels,Hand,Position,Detected,MeasuredHeight,HeightDifference(%),HeightDifference(UnityUnits),CorrectCount,StepSize(%),StepSize(UnityUnits),Other
+6/30/2017 4:53:29 PM,,,,,,,Male,Never,,Standing,True,1.652868,1,1.652868,1,0.05,0.08264341,
+6/30/2017 4:54:02 PM,,,,,,,Male,Never,,Standing,False,1.652868,-0.95,-1.570225,1,0.05,0.08264341,
+6/30/2017 4:54:26 PM,,,,,,,Male,Never,,Standing,True,1.652868,0.9,1.487581,2,0.05,0.08264341,
+6/30/2017 4:54:42 PM,,,,,,,Male,Never,,Standing,True,1.652868,-0.85,-1.404938,3,0.05,0.08264341,
+6/30/2017 4:55:18 PM,,,,,,,Male,Never,,Standing,True,1.652868,0.8,1.322295,4,0.05,0.08264341,
+6/30/2017 4:55:36 PM,,,,,,,Male,Never,,Standing,True,1.652868,-0.7499999,-1.239651,5,0.05,0.08264341,
+6/30/2017 4:57:23 PM,,,,,,,Male,Never,,Standing,True,1.652868,0.6999999,1.157008,6,0.05,0.08264341,
