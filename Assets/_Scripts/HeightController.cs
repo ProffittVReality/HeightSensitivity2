@@ -39,6 +39,7 @@ public class HeightController : MonoBehaviour
 	float heightGapScalar;
 	private int heightGapSign;
 
+	[HideInInspector]
 	public float subjectHeight;
 
 	public float maxHeightMultiplier = 0.6f; // decrement in maxGainProportion from block to block
@@ -107,7 +108,7 @@ public class HeightController : MonoBehaviour
 		
 		if ((Input.GetKeyDown(switchRoom) || madeSelection) && !gui.isVisible)//Change height
 		{
-			Debug.Log("Made it");
+			
 			selectedRoom = selectedRoom == Option.RoomA ? Option.RoomB : Option.RoomA; // switches the room (A goes to B, B goes to A)
 			timer = 0;
 			chimesPlayed = false;
@@ -141,7 +142,7 @@ public class HeightController : MonoBehaviour
 			timer = 0f;
 			chimesPlayed = false;
 
-			if (Input.GetKeyUp(selectA)) //A is rotating
+			if (Input.GetKeyUp(selectA)) //A is rotatings
 			{
 				correctTrials += wrongHeightRoom == Option.RoomA ? 1 : 0;
 				correct = wrongHeightRoom == Option.RoomA;
